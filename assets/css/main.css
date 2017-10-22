@@ -1,0 +1,62 @@
+:root{
+    --color-darker: rgba(0, 0, 0, 0.6);
+    --color-dark: rgba(10, 37, 36, 0.6);
+    --color-shadow: rgba(58, 63, 63, 0.6);
+    --color-light: #D4D4D4;
+    --color-red: #A20000;
+    --color-green: #13A200;
+    --color-orange: #E1C210;
+    --color-grey: #2D2828;
+
+}
+
+body{
+    background-color: var(--color-darker);
+    display: absolute;
+}
+
+div.dataContainer {
+    background-color: var(--color-dark);
+    padding: 20px;
+      
+  }
+
+
+
+#myProgress {
+    width: 26%;
+    background-color: var(--color-grey);
+    text-align: center;
+}
+.myBarGreen{
+ 
+    height: 30px;
+    background-color: var(--color-green);
+}
+.myBarOrange{
+    width: 3%;
+    height: 30px;
+    background-color: var(--color-orange);
+}
+.myBarRed{
+    width: 3%;
+    height: 30px;
+    background-color: var(--color-red);
+}
+
+#statusChange{
+    color: var(--color-light);
+    font-size: 30px;
+    background-color: var(--color-shadow);
+}
+
+.fa-chevron-circle-up {
+    color: var(--color-green);
+}
+
+.fa-chevron-circle-down {
+    color: var(--color-red);
+}
+
+
+
